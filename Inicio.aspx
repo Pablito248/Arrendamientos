@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="Styles/style.css" rel="stylesheet" />
-    <title>RentFacil - Tu espacio, tu libertad</title>
+    <title>RentFacil - El lugar perfecto para ti</title>
 </head>
 <body>
     <div class="navbar">
