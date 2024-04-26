@@ -1,0 +1,271 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #555;
+    background: linear-gradient(#333, #000) fixed;
+}
+
+.navbar {
+    background-color: rgb(0, 38, 255); 
+    border-bottom: 2px solid #666; 
+    box-shadow: 0 2px 15px #0009; 
+    padding: 10px 15px; 
+    display: flex; 
+    justify-content: safe center; 
+    flex-wrap: wrap;
+    align-items: center; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.navbar a {
+    color: #ddd; 
+    text-decoration: none; 
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+
+.navbar a:hover {
+    background-color: #555; 
+}
+
+
+.navbar-brand {
+    font-weight: bold; 
+    font-size: 1.5em; 
+    color: #666; 
+}
+
+
+.nav-items {
+    display: flex; 
+    list-style: none;
+}
+
+
+.nav-item {
+    margin: 0 10px; 
+}
+
+.main-header h1 {
+    color: #eee;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 100px; 
+}
+
+.tagline {
+    color: #bbb;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.description {
+    color: #ddd;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form1 {
+    background-color: transparent;
+    padding: 20px 0 0 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 55px #fff2;
+    margin-top: 80px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #eee;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.form_input{
+    padding: 6px 20px;
+    border-radius: 20px;
+
+}
+form{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 2px solid #666;
+    box-shadow: 0 0 15px #0009;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+}
+
+.prop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prop {
+    width: calc(50% - 20px); 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+}
+
+.prop:nth-child(odd) {
+    margin-right: 20px; 
+}
+
+.prop:nth-child(even) {
+    margin-left: 20px; 
+}
+
+label {
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+fieldset {
+    margin: 20px 0 0 0;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 5px;
+    border: 1px solid #ddd6;
+    background-color: #666;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+
+#GridViewArrendatarios {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: transparent; 
+    margin: 20px 0; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
+}
+
+
+#GridViewArrendatarios td,
+#GridViewArrendatarios th {
+    border: 1px solid #333;
+    padding: 8px; 
+}
+
+
+#GridViewArrendatarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left; 
+    background-color: #774caf; 
+    color: white;
+}
+
+   
+#GridViewArrendatarios tr:hover {
+    background-color: #555;
+}
+
+
+#GridViewArrendatarios tr:nth-child(odd) {
+    background-color: #333; 
+}
+
+#GridViewArrendatarios tr:nth-child(even) {
+    background-color: transparent;
+}
+
+#GridViewArrendador {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: transparent; 
+    margin: 20px 0; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
+}
+
+
+#GridViewArrendador td,
+#GridViewArrendador th {
+    border: 1px solid #333;
+    padding: 8px; 
+}
+
+
+#GridViewArrendador th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left; 
+    background-color: #774caf; 
+    color: white;
+}
+
+   
+#GridViewArrendador tr:hover {
+    background-color: #555;
+}
+
+
+#GridViewArrendador tr:nth-child(odd) {
+    background-color: #333; 
+}
+
+#GridViewArrendador tr:nth-child(even) {
+    background-color: transparent;
+}
